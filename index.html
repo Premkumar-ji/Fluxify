@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Converter</title>
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Unit Converters</h1>
+        
+        <div class="converter">
+            <label for="length">Length (meters to feet):</label>
+            <input type="number" id="length" oninput="convertLength()">
+            <div class="output-box" id="length-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="weight">Weight (kilograms to pounds):</label>
+            <input type="number" id="weight" oninput="convertWeight()">
+            <div class="output-box" id="weight-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="temperature">Temperature (Celsius to Fahrenheit):</label>
+            <input type="number" id="temperature" oninput="convertTemperature()">
+            <div class="output-box" id="temperature-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="volume">Volume (liters to gallons):</label>
+            <input type="number" id="volume" oninput="convertVolume()">
+            <div class="output-box" id="volume-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="area">Area (square meters to square feet):</label>
+            <input type="number" id="area" oninput="convertArea()">
+            <div class="output-box" id="area-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="speed">Speed (km/h to mph):</label>
+            <input type="number" id="speed" oninput="convertSpeed()">
+            <div class="output-box" id="speed-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="time">Time (seconds to minutes):</label>
+            <input type="number" id="time" oninput="convertTime()">
+            <div class="output-box" id="time-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="currency">Currency (USD to EUR):</label>
+            <input type="number" id="currency" oninput="convertCurrency()">
+            <div class="output-box" id="currency-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="data">Data (bytes to kilobytes):</label>
+            <input type="number" id="data" oninput="convertData()">
+            <div class="output-box" id="data-output"></div>
+        </div>
+
+        <div class="converter">
+            <label for="power">Power (watts to horsepower):</label>
+            <input type="number" id="power" oninput="convertPower()">
+            <div class="output-box" id="power-output"></div>
+        </div>
+    </div>
+
+    <script src="converter.js"></script>
+</body>
+</html>
